@@ -1,0 +1,284 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color:#CCC;
+	width:100%;
+}
+
+
+
+#container {
+	position:relative;
+	width:960px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#header {
+	background-image:url(../img/header.png);
+	position:relative;
+	width:960px; 
+	height:150px;
+	background-color:#FFF;
+
+}
+
+ul
+{
+	position: relative;
+	margin-top: 7px;
+	margin-bottom: 0px;
+	list-style-type: none;
+	width: 961px;
+	padding: 0px;
+	overflow: hidden;
+}
+li a
+{
+	color:#FFF;
+	padding-top:4px;
+float:left;
+text-transform:uppercase;
+border-right: 1px solid white;
+width:159px;
+height:25px;
+display:block;
+text-decoration:none;
+text-align:center;
+vertical-align:middle;
+background-color:#15692b;
+}
+
+li a:hover
+{
+	background-color:#090;
+
+}
+.present
+{
+	background-color:#090;
+
+}
+#slider
+{
+	margin-top:7px;
+	position:relative;
+	width:960px;
+	height:250px;
+}
+    
+#central {
+	
+	
+	margin-top:7px;
+	position:relative;
+	width:960px;
+	height:250px;
+	border::5px solid #000;
+}
+
+#intro {
+	background-image:url(../img/noise_lines.png);
+	background-image:
+	padding-top:0px;
+	position:relative;
+	width:663px;
+	height:250px;
+	float:left;
+
+}
+#intro h2{
+	padding-top:5px;
+	padding-bottom:5px;
+	color:#FFF;
+	margin-top:0px;
+	padding-left:15px;
+	background-color:#15692b;
+}
+.para {
+	padding:15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 20px;
+	color: #333333;
+	text-align: justify;
+}
+
+.para1 {
+	
+	padding-bottom:10px;
+	padding-left:5px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 20px;
+	color: #333333;
+	text-align: justify;
+}
+
+#us 
+{
+	background-image:url(../img/noise_lines.png);
+	position:relative;
+	width:290px;
+	height:250px;
+	padding:0px;
+	float:right;
+}
+.why_do {
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:15px;
+	background-color:#15692b;
+	font-size: 22px;
+	color:#FFF;
+	margin-top:0px;
+}
+
+.why {
+	padding-top:10px;
+	padding-bottom:5px;
+	padding-left:5px;
+	font-size: 22px;
+	color:#15692b;
+	margin-top:0px;
+}
+
+#mq {
+	position:absolute;
+	padding-top:5px;
+	padding-left:25px;
+	padding-right:25px;
+	width:180px;
+	height:100px;
+	z-index:1;
+	left: 2px;
+}
+#mq ul
+{
+	margin-left:auto;
+	padding-left:15px;
+	margin-right:auto;
+	list-style:disc;
+	width:200px;
+}
+#mq ul li
+{
+	font-size:16px;
+	width:250px;
+	line-height:35px;
+	color:#000;
+}
+
+#us_only {
+	position:absolute;
+	width:274px;
+	height:208px;
+	z-index:2;
+	left: -37px;
+	top: 63px;
+}
+#images {
+	margin-top:7px;
+	position:relative;
+	width:960px;
+	height:215px;
+	background-image:url(../img/noise_lines.png);
+}
+#images h2{
+	padding-top:5px;
+	padding-bottom:5px;
+	color:#FFF;
+	margin-top:0px;
+	padding-left:15px;
+	background-color:#15692b;
+}
+.images_content
+{
+	margin-top:-18px;
+	padding:10px;
+	overflow:auto;
+	display:inline-block;
+}
+
+.images_text
+{
+	margin-top:0px;
+	float:left;
+	margin-left:15px;
+	width:150px;
+	height:150px;
+}
+
+#footer{
+	padding-top:10px;
+	padding-bottom:1px;
+	margin-top:7px;
+	position:relative;
+	width:960px;
+	background-color: #15692b;
+	text-align:center;
+
+}
+
+#footer a
+{
+	font-weight:bold;
+	text-decoration:none;
+	color:#FFF;
+}
+
+#footer a:hover
+{
+	font-weight:bold;
+	text-decoration:none;
+	color:#000;
+}
+/* contact us */
+
+#contact_main {
+	background-image:url(../img/noise_lines.png);
+	margin-top:7px;
+	position:relative;
+	width:930px;
+	padding:15px;
+	background-color:#FFF;
+}
+#ser_main {
+	background-image:url(../img/noise_lines.png);
+	margin-top:7px;
+	position:relative;
+	width:930px;
+	height:auto;
+	padding:15px;
+	background-color:#FFF;
+}
+
+#images td
+{
+	text-align:center;
+	border: 1px solid #000;
+}
+
+
+
+#ser_main table ul
+{ 
+	margin-left:100px;
+	padding-left:15px;
+	list-style:disc;
+	width:200px;
+}
+#ser_main table ul li
+{
+	text-align:left;
+}
+	
+#container #footer font p {
+	text-align: center;
+	font-size:12px;
+}
+#container #footer font {
+	text-align: center;
+	line-height:30px;
+	font-size:18px;
+}
